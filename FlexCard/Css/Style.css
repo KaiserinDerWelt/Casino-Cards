@@ -1,0 +1,28 @@
+    * {
+        color: red;
+        font-family: 'Trebuchet MS';
+        text-align: center;
+        font-size: 50px;
+        box-sizing: border-box;
+        background-image: url("http://www.casinodeorientacion.es/wp-content/uploads/2011/01/alfombras-lasvegass.jpg");
+
+
+    }
+    .wrapper {
+        height: 100%;
+        display: flex;
+        float: right;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .card {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 60px 10px;
+        margin: 10px;
+        width: 140px;
+        height: 200px;
+        background: #FFFFFF !important;
+
+
+    }
